@@ -1,0 +1,24 @@
+main.deleted {
+    width: 85%;
+    min-height: 100vh;
+    position: relative;
+    left: 15%;
+    background: rgb(229, 229, 229);
+}
+
+section.deleted__container {
+    width: 80%;
+}
+
+@media (max-width: 375px) {
+    main.deleted  {
+        width: 100%;
+        min-height: 100vh;
+        left: 0;
+        top: 63px;
+    }
+
+    section.deleted__container {
+        margin-top: 20px;
+    }
+}
