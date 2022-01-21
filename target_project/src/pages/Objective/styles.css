@@ -1,0 +1,50 @@
+main.objectives {
+    width: 85%;
+    min-height: 100vh;
+    position: relative;
+    left: 15%;
+    background: #F5F5F5;
+    padding-bottom: 60px;
+}
+
+section.objectives__container {
+    width: 80%;
+}
+
+section.objectives__container button.objectives__container-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 219px;
+    height: 48px;    
+    background: #535EE6;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px; 
+}
+
+section.objectives__container button.objectives__container-button:hover{
+    background: rgba(83, 93, 230, 0.795);
+}
+
+@media(max-width: 375px) {
+    main.objectives {
+        width: 100%;
+        position: relative;
+        min-height: 100vh;
+        left: 0;
+        top: 63px;
+    }
+
+    section.objectives__container button.objectives__container-button {
+        bottom: -30px;
+        top: 40;
+        left: 0;
+        height: 48px; 
+        width: 100%;
+        position: fixed;
+
+        border-radius: 0;
+    }
+}

@@ -1,5 +1,5 @@
 import {
-    BrowserRouter, Route, Routes, Navigate
+    BrowserRouter, Navigate, Route, Routes
 } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import DeletedObjectives from "./pages/Deleted";
