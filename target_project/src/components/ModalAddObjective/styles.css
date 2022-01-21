@@ -15,7 +15,7 @@
 
 .modal {
     position: relative;
-    width: 50%;
+    width: 30%;
     min-height: 50%;
     display: flex;
     flex-direction: column;
