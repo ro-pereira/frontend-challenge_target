@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}
+
+body div div.routes{
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+@media (max-width: 375px){
+  body div div.routes{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+}
+
+a {
+  text-decoration: none;
+}
