@@ -16,16 +16,19 @@
 }
 
 .card__objective p {
+    display: flex;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1rem;
     line-height: 15px;
+	flex-wrap: wrap;
 
     color: #000000;
 }
 
 .card__objective-text {
     width: 75%;
+    flex-wrap: wrap;
 }
 
 .card__objective-icons {
@@ -79,7 +82,8 @@
     }
 
     .card__objective p{
-        font-size: 0.8rem
+        font-size: 0.8rem;
+        flex-flow: row wrap
     }
 
     .card__objective-icons img {

@@ -1,8 +1,8 @@
+import ModalAddObjective from "../../components/ModalAddObjective";
 import { format } from 'date-fns';
 import { useEffect, useState } from "react";
 import CardObjective from "../../components/CardObjective";
 import Header from "../../components/Header";
-import ModalAddObjective from "../../components/ModalAddObjective";
 import useRequests from "../../helpers/useRequest";
 import "./styles.css";
 
