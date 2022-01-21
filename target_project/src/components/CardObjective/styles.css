@@ -1,0 +1,89 @@
+.card__objective {
+    width: 100%;
+    min-height: 111px;
+    background: #FFFFFF;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 1.5rem;
+    font-family: "Nunito", sans-serif;
+}
+
+.card__objective strong {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+}
+
+.card__objective p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.card__objective-text {
+    width: 75%;
+}
+
+.card__objective-icons {
+    justify-content: center;
+    gap: 20px;
+    width: 25%;
+}
+
+.card__objective-icons img {
+    margin-top: 20px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.card__objective-imgs {
+    width: 80px;
+    gap: 20px
+}
+
+.card__objective-category {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 11px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    Width: 65px;
+    height: 16px;
+    background-color: rgb(247, 56, 94);
+    border-radius: 4px;
+}
+
+.color {
+    background-color: rgb(236, 236, 236);
+}
+
+.card__objective-done {
+    background-color: #E9FFE9;
+}
+
+@media (max-width: 375px) {
+    div.card__objective {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card__objective strong{
+        font-size: 1.6rem
+    }
+
+    .card__objective p{
+        font-size: 0.8rem
+    }
+
+    .card__objective-icons img {
+        width: 24px
+    }
+
+}
