@@ -1,0 +1,37 @@
+aside.navBar {
+    position: fixed;
+    min-width: 15%;
+    height: 100vh;
+    z-index: 1;
+
+    background: #D9D9D9;
+    
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.0rem;
+    line-height: 30px;
+}
+
+div.navBar__logo {
+    background: #D9D9D9;
+    height: 15%;
+}
+
+.active {
+   text-decoration: none;
+   border-right: 5px solid #F55673;
+   background: rgba(255, 255, 255, 0.23);
+}
+
+aside.navBar nav a {
+    padding: 0.8rem 0rem 0.8rem 0.8rem;
+    text-decoration: none;
+    color: #515151;
+}
+
+@media (max-width: 375px) {
+    aside.navBar {
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+header.header {
+    height: 100px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 1rem 3rem;
+
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+
+    color: #F55673;
+}
+
+header.header input {
+    background: rgb(242, 242, 242);
+    border: none;
+    border-radius: 10px;
+    width: 38%;
+    height: 70%;
+    background-position: 25vw;
+    background-repeat: no-repeat;
+    padding: 1rem 2.9rem;
+}
+
+@media (max-width: 375px) {
+    header.header{
+        height: 70px;
+        padding: 1rem;
+        justify-content: center;
+    }
+    header.header input {
+        width: 90%;
+        height: 100%;
+        background-position: right;
+    }
+    header.header h1.header__title{
+        display: none;
+    }
+}

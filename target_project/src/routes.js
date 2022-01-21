@@ -1,6 +1,7 @@
 import {
-    BrowserRouter, Route, Routes, Navigate, Link
+    BrowserRouter, Route, Routes, Navigate
 } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
 import DeletedObjectives from "./pages/Deleted";
 import NotFound from "./pages/NotFound";
 import Objectives from "./pages/Objective";
@@ -10,6 +11,7 @@ function Rotas() {
     return (
         <div className="routes">
             <BrowserRouter>
+            <Sidebar />
                 <Routes>
                     <Route path="objetivos" exact strict element={<Objectives />} />
                     <Route path="deletados" exact strict element={<DeletedObjectives />} />
